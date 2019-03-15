@@ -11,7 +11,8 @@ server.get('/games', async (req, res) => {
         const games = await Games.find();
 
         res.status(200).json(games);
-    } catch(err) {
+    } 
+    catch(err) {
         console.log(err);
         res.status(500).json({ error: 'Games could not be retrieved.' });
     }
