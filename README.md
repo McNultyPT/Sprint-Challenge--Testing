@@ -26,10 +26,15 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 1. In Jest, what are the differences between `describe()` and `it()` globals, and what are good uses for them?
 
-    initial push
+    `describe()` is used to refer to a function or component, for example, for testing. `it()` is where the individual tests are performed, and where you say what you are testing for.
 
 1. What is the point of `Test Driven Development`? What do you think about this approach?
+
+    `Test Driven Development` is the process of writing and running tests. It takes the approach of writing the test first then writing the minimum amount of code to make it pass, as opposed to writing all of your code first then testing. TDD forces you to think about how you are writing the code, and ultimimately forces you to write better code.
+
 1. Mention three types of automated tests.
+
+    Unit testing, integration testing and snapshot testing.
 
 ## Project Set Up
 
