@@ -4,7 +4,7 @@ const server = require('./server.js');
 const db = require('../data/dbConfig.js');
 
 describe('server.js', () => {
-    it.skip('should set testing environment', () => {
+    it('should set testing environment', () => {
         expect(process.env.DB_ENV).toBe('testing');
     });
 
